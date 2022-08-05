@@ -1,12 +1,18 @@
 
-/* 
+tr td .fa-times {
+    visibility: hidden;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+tr:hover td .fa-times {
+    visibility: visible;
+    cursor: pointer;
+}
 
-*/
+.inputClass {
+    outline: none;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
